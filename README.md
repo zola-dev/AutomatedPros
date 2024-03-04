@@ -1,6 +1,6 @@
 # AutomatedPros
 
-main.html file serves as the entry point for the assignment.
+IMPORTANT: main.html file serves as the entry point for the assignment.
 
 HTML Structure with Reusable Components:
 
