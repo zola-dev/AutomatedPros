@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Not Found - Deliver X - Webflow Ecommerce website template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="https://www.shebs-braids.area36000.com:8080/AutomatedPros/icon.svg">
+    <link rel="stylesheet" href="./main.scss.css" media="all">
+    <link rel="preload" as="image" type="image/svg+xml" href="https://www.shebs-braids.area36000.com:8080/AutomatedPros/logo.svg">
+    <link rel="preload" as="image" type="image/svg+xml" href="https://www.shebs-braids.area36000.com:8080/AutomatedPros/webflow-icon.svg">
+    <link rel="preload" as="image" type="image/svg+xml" href="https://www.shebs-braids.area36000.com:8080/AutomatedPros/webflow-badge.svg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://kit.fontawesome.com/88d6a1ac78.js" crossorigin="anonymous"></script>
+    <script src="./preload.js.js"></script>
+</head>
+<body>
+<div class="h-100">
+        <div 
+        id="header" class="w-100 d-flex justify-content-center">
+            <div class="d-flex justify-content-between">
+                <a href="https://delivertemplate.webflow.io/home">
+                    <img src="https://www.shebs-braids.area36000.com:8080/AutomatedPros/logo.svg">
+                </a>
+                <div>
+                    <nav role="navigation">
+                        <ul role="list">
+                            <li>
+                                <a href="https://delivertemplate.webflow.io/home">Home</a>
+                            </li>
+                            <li>
+                                <a href="https://delivertemplate.webflow.io/about">About</a>
+                            </li>
+                            <li>
+                                <a href="https://delivertemplate.webflow.io/plans">Pricing</a>
+                            </li>
+                            <li  id="rotatate">
+                                <a>Pages<span></span></a>
+                                <div></div>
+                                <div></div>
+                            </li>
+                            <li>
+                                <a id="cart" href="#">Cart(0)</a>
+                                <div id="cartField">                              
+                                    <div class="vh-100 w-100">
+                                        <div
+                                           class="d-flex justify-content-between align-items-center">
+                                           <div>Your Cart</div>
+                                           <div class="fa-solid fa-x"></div>
+                                        </div>
+                                        <div class="w-100 flex-column d-flex align-items-center">
+                                            <div class="h-50 d-flex align-items-end">No items found.</div>
+                                            <a 
+                                            class="d-flex align-items-start pricing"
+                                            href="https://delivertemplate.webflow.io/plans">Go to pricing</a>                   
+                                        </div>                                
+                                    </div>                     
+                                </div>
+                            </li>
+                            <li>
+                                <a 
+                                href="https://delivertemplate.webflow.io/download" 
+                                class="button-white">Download app</a>
+                            </li>
+                            <li>
+                                    <a 
+                                    href="https://delivertemplate.webflow.io/contact" 
+                                    class="button-orange"                        
+                                    >Register</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    <div class="w-100 d-flex justify-content-center">
+        <div class="d-flex justify-content-between">
+            <div id="404" class="d-flex align-items-center justify-content-center">
+                <div>
+                        <div>404</div>
+                        <div>
+                            <h1>Page not found</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <span>magna aliqua.</span>
+                            </p>
+                                <a 
+                                href="https://delivertemplate.webflow.io/home" 
+                                class="goBack"
+                                >Go back home</a>
+                        </div>
+                </div>
+            </div>
+            <div id="food">
+                <img 
+                loading="eager" 
+                alt="Not Found - Deliver X Webflow Template"
+                onload="fadeOut('404',.2,0)"
+                height="1027.4"
+                />
+        
+            </div>
+            <script src="./getImgs.js.js"></script>
+        </div>
+    </div>
+    <section id="main./footer.html"></section>
+    <div id="badge">
+        <a href="https://webflow.com/?utm_campaign=brandjs/">
+            <img src="https://www.shebs-braids.area36000.com:8080/AutomatedPros/webflow-icon.svg">
+            <img onload="fadeOut('badge',.2,.8)" src="https://www.shebs-braids.area36000.com:8080/AutomatedPros/webflow-badge.svg" alt="Made in Webflow">
+        </a>
+</div>   
+</div>        
+
+<script src="./lazyHTML.js.js"></script>
+<script src="./main.js.js"></script>
+</body>
+</html>

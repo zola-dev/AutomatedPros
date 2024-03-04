@@ -1,0 +1,2 @@
+const pages=document.getElementsByClassName("justify-content-center")[0].children[0];580==window.innerWidth&&(pages.id||(pages.id="pages",pages.children[0].children[2].style.display="none"));
+//# sourceMappingURL=manu.js.js.map
